@@ -97,12 +97,12 @@ function App() {
             description="Comprehensive bookkeeping solutions for accurate financial records"
           />
           <ServiceCard 
-            icon="�"
+            icon="💼"
             title="CPA Firms"
             description="Efficient Back-Office Solution"
           />
           <ServiceCard 
-            icon="�🌍"
+            icon="🌍"
             title="Offshore Accounting Support"
             description="Cost-effective offshore accounting services with global expertise"
           />
@@ -120,6 +120,11 @@ function App() {
             icon="📈"
             title="Financial Reporting & Analysis"
             description="Detailed financial reports for informed business decisions"
+          />
+          <ServiceCard 
+            icon="🌐"
+            title="Virtual Accounting Support"
+            description="Dedicated virtual accounting support for CA, CPA & ACCA firms"
           />
         </div>
       </section>
@@ -168,7 +173,7 @@ function App() {
       {/* Footer */}
       <footer className="footer">
         <div className="footer-content">
-          <div className="footer-brand">Taxarow</div>
+          <div className="footer-brand">Taxarow Global Business Solution Pvt. Ltd.</div>
           <div className="footer-tagline">Precision. Compliance. Confidence.</div>
           <div className="footer-keywords">
             Bookkeeping | Accounting | Offshore Accounting | Outsourcing | US Taxation | 
