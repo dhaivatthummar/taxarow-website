@@ -1,3 +1,6 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Allow: /
+
+# Sitemap (update with your actual domain when deployed)
+Sitemap: https://www.taxarow.com/sitemap.xml

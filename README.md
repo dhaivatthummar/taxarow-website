@@ -1,70 +1,128 @@
-# Getting Started with Create React App
+# Taxarow - Coming Soon Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Professional, SEO-optimized "Coming Soon" website for Taxarow, a professional accounting and tax outsourcing firm.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+✅ **SEO Optimized**
+- Complete meta tags (title, description, keywords)
+- Open Graph and Twitter Card tags
+- Schema.org markup (ProfessionalService)
+- Semantic HTML structure
+- Proper heading hierarchy (H1 → H2 → H3)
 
-### `npm start`
+✅ **Mobile-First & Responsive**
+- Works perfectly on all devices (mobile, tablet, desktop)
+- Sticky header with smooth scroll
+- Mobile-friendly navigation
+- Optimized touch targets
 
-Runs the app in the development mode.\
+✅ **Performance Optimized**
+- Lightweight animations (CSS only)
+- Optimized font loading (Google Fonts with preconnect)
+- Fast loading times
+- Lighthouse-friendly
+
+✅ **Accessibility**
+- WCAG compliant
+- Semantic HTML
+- ARIA labels
+- Keyboard navigation support
+
+## Tech Stack
+
+- React 19.2.4
+- CSS3 (no external CSS frameworks)
+- Google Fonts (Inter)
+
+## Getting Started
+
+### Install Dependencies
+```bash
+npm install
+```
+
+### Run Development Server
+```bash
+npm start
+```
+
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Build for Production
+```bash
+npm run build
+```
 
-### `npm test`
+Creates an optimized production build in the `build` folder.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Structure
 
-### `npm run build`
+```
+taxarow/
+├── public/
+│   └── index.html          # SEO meta tags, Schema markup
+├── src/
+│   ├── App.js              # Main component with all sections
+│   ├── App.css             # Complete styling
+│   ├── index.js            # Entry point
+│   └── index.css           # Global styles
+└── package.json
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Sections
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Header** - Sticky navigation with logo and menu
+2. **Hero** - Eye-catching gradient background with main CTA
+3. **About** - Company description and value proposition
+4. **Services** - 7 service cards with hover effects
+5. **Why Choose** - Trust-building features
+6. **Coming Soon Notice** - Clear messaging about launch
+7. **Footer** - SEO keywords, countries served, copyright
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## SEO Keywords Targeted
 
-### `npm run eject`
+- Bookkeeping
+- Accounting
+- Offshore Accounting
+- Outsourcing
+- US Taxation
+- Accounting Outsourcing
+- Virtual Accounting
+- Payroll Processing
+- Financial Reporting
+- Tax Compliance
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Countries Served
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+India | United States | Australia | United Kingdom
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Future Expansion
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The codebase is modular and ready for:
+- Service detail pages
+- Blog section
+- Contact forms
+- Client dashboard
+- Team pages
+- Case studies
 
-## Learn More
+## Performance
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Minimal JavaScript
+- CSS-only animations
+- Optimized images (when added)
+- Fast Time to Interactive (TTI)
+- Good Core Web Vitals scores
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Browser Support
 
-### Code Splitting
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+- Mobile browsers (iOS Safari, Chrome Mobile)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Taxarow** - Precision. Compliance. Confidence.
