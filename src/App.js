@@ -121,11 +121,6 @@ function App() {
             title="Financial Reporting & Analysis"
             description="Detailed financial reports for informed business decisions"
           />
-          <ServiceCard 
-            icon="🌐"
-            title="Virtual Accounting Support"
-            description="Dedicated virtual accounting support for CA, CPA & ACCA firms"
-          />
         </div>
       </section>
 
