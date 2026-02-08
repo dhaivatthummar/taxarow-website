@@ -54,6 +54,15 @@ body {
   color: var(--primary-blue);
   letter-spacing: -0.5px;
   flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  height: 45px;
+  width: auto;
+  object-fit: contain;
+  display: block;
 }
 
 .nav {
@@ -428,6 +437,10 @@ body {
 @media (max-width: 480px) {
   .header-container {
     padding: 1rem;
+  }
+  
+  .logo-image {
+    height: 35px;
   }
   
   .hero {

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import taxarowLogo from './assets/images/taxarowLogo.png';
 
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -27,7 +28,9 @@ function App() {
       {/* Header */}
       <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
         <div className="header-container">
-          <div className="logo">Taxarow</div>
+          <div className="logo">
+            <img src={taxarowLogo} alt="Taxarow Logo" className="logo-image" />
+          </div>
           <button 
             className="menu-toggle" 
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -94,12 +97,12 @@ function App() {
             description="Comprehensive bookkeeping solutions for accurate financial records"
           />
           <ServiceCard 
-            icon="🌐"
-            title="Accounting Outsourcing"
-            description="End-to-end accounting outsourcing for businesses worldwide"
+            icon="�"
+            title="CPA Firms"
+            description="Efficient Back-Office Solution"
           />
           <ServiceCard 
-            icon="🌍"
+            icon="�🌍"
             title="Offshore Accounting Support"
             description="Cost-effective offshore accounting services with global expertise"
           />
@@ -117,11 +120,6 @@ function App() {
             icon="📈"
             title="Financial Reporting & Analysis"
             description="Detailed financial reports for informed business decisions"
-          />
-          <ServiceCard 
-            icon="💼"
-            title="Virtual Accounting Support"
-            description="Dedicated virtual accounting support for CA, CPA & ACCA firms"
           />
         </div>
       </section>
